@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+  
+    box-shadow: 0 4px 6px rgba(57, 63, 72, 0.3);
+  }
+
+  .header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navLink {
+    text-decoration: none;
+  }
+  
+  .navLink:hover,
+  .navLink:focus {
+    color: green;
+    text-decoration: underline;
+  }
+  
